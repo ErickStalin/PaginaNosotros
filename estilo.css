@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 2px;
+}
+.btn {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+
+.menu_botones {
+    text-align: center;
+}
+
+.menu_botones a {
+    background-color: #C898BD;
+    border-radius: 17px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+}
+body{
+    background: url("https://thumbs.dreamstime.com/b/vector-peluquer%C3%ADa-belleza-herramienta-patr%C3%B3n-sin-fisuras-profesional-herramientas-barber%C3%ADa-de-manicura-tijeras-peine-174636716.jpg");
+    background-position: center center;
+    height: 1880;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body::before{
+    position: absolute;
+    content: "";
+    background: linear-gradient(#c6bdd3, #ffffff);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+.texto1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.titulo1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.titulo1::after{
+    display: inline-block;
+    position: relative;
+    content: ' ';
+    width: 180px;
+    height: 3px;
+    background-color: #9365CE;
+}
+.titulo1::after{
+    right: -10px;
+}
+.titulo2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.texto2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.imagen1{
+    display: flex;
+    justify-content: right;
+}
+.imgn{
+    text-align: left;
+}
